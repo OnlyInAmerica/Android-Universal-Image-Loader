@@ -4,13 +4,14 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.4.2'
+        classpath 'com.android.tools.build:gradle:0.5.+'
     }
 }
 
 apply plugin: 'android-library'
 
 android {
+    buildToolsVersion "17"
     compileSdkVersion 18
     sourceSets {
         main {
